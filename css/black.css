@@ -1,0 +1,95 @@
+body{
+	background-color: white;
+}
+#parent{
+	width:60%;
+	min-height:90vh;
+	background-color: olive;
+	margin:10vh 20%;
+	float:left;
+}
+#row1{
+	width:100%;
+	min-height:35vh;
+	background-color:white;
+	float:left; 
+
+}
+#row1 #row1left{
+	width:48%;
+	min-height:33vh;
+	background-color:black;
+	float:left; 
+
+}
+#row1 #row1right{
+	width:50%;
+	min-height:35vh;
+	background-color:white;
+	float:right; 
+
+}
+#row1right #row1rightup{
+	width:100%;
+	min-height:20vh;
+	background-color:black;
+	float:right; 
+
+}
+#row1right #row1rightdown{
+	width:100%;
+	min-height:14vh;
+	background-color:black;
+	float:right;
+	margin-top: 6px; 
+
+}
+#row2{
+	width:100%;
+	min-height:55vh;
+	background-color:gray;
+	float:left; 
+
+}
+#row2 #row2left{
+	width:30%;
+	min-height:55vh;
+	background-color:black;
+	float:left;
+
+
+}
+#row2 #row2right{
+	width:70%;
+	min-height:55vh;
+	background-color:white;
+	float:right; 
+}
+#row2right #row2rightup{
+	width:100%;
+	min-height:35vh;
+	background-color:white;
+	float:right; 
+}
+#row2rightup #row2rightupleft{
+	width:23%;
+	min-height:33vh;
+	background-color:black;
+	float:left; 
+	margin-left: 11px;
+
+}
+#row2rightup #row2rightupright{
+	width:71.3%;
+	min-height:33vh;
+	background-color:black;
+	float:right; 
+
+}
+#row2right #row2rightdown{
+	width:98%;
+	min-height:20vh;
+	background-color:black;
+	float:right; 
+}
+
